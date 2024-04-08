@@ -1,0 +1,37 @@
+/* Basic CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+header h1, nav ul, footer p {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+}
